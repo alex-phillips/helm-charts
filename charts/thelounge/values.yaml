@@ -17,7 +17,7 @@ image:
 # @default -- See below
 env:
   # -- Set the container timezone
-  TZ: UTC
+  TZ: America/New_York
   PUID: 1000
   PGID: 1000
 
