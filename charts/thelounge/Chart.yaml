@@ -1,25 +1,22 @@
 ---
 apiVersion: v2
 appVersion: v21.05.1
-description: A simple, self-hosted, easy-to-use platform for organising and storing information.
-name: bookstack
+description: Thelounge (a fork of shoutIRC) is a web IRC client that you host on your own server.
+name: thelounge
 version: 2.3.0
 kubeVersion: ">=1.16.0-0"
 keywords:
-  - bookstack
-  - book
-  - stack
-  - organizer
-  - server
-  - hosted
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/bookstack
-icon: https://avatars3.githubusercontent.com/u/20912696?s=400&v=4?sanitize=true
+  - thelounge
+  - irc
+  - shoutIRC)
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/thelounge
+icon: https://raw.githubusercontent.com/thelounge/thelounge/master/client/img/logo-vertical-transparent-bg.svg?sanitize=true
 sources:
-  - https://www.bookstackapp.com/
-  - https://hub.docker.com/r/linuxserver/bookstack
+  - https://thelounge.github.io/
+  - https://hub.docker.com/r/linuxserver/thelounge
 maintainers:
-  - name: nicholaswilde
-    email: ncwilde43@gmail.com
+  - name: alex-phillips
+    email: ahp118@gmail.com
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com
