@@ -1,0 +1,22 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: Snipe-it makes asset management easy. It was built by people solving real-world IT and asset management problems, and a solid UX has always been a top priority. Straightforward design and bulk actions mean getting things done faster.
+name: snipe-it
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - snipe-it
+  - management
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/thelounge
+icon: https://camo.githubusercontent.com/8e8f29714dd943f14c7e2f4a427bf4eb72664d3d61ed8f946bfe0cd697d59032/68747470733a2f2f73332d75732d776573742d322e616d617a6f6e6177732e636f6d2f6c696e75787365727665722d646f63732f696d616765732f736e6970652d69742d6c6f676f353030783530302e706e67
+sources:
+  - https://github.com/snipe/snipe-it
+  - https://hub.docker.com/r/linuxserver/snipe-it
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 3.3.0
