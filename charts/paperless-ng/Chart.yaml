@@ -1,0 +1,22 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: Paperless-ng is an application by Daniel Quinn and contributors that indexes your scanned documents and allows you to easily search for documents and store metadata alongside your documents.
+name: paperless-ng
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - paperless
+  - paperless-ng
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/paperless-ng
+icon: https://raw.githubusercontent.com/the-paperless-project/paperless/master/src/paperless/static/paperless/img/logo-dark.png
+sources:
+  - https://github.com/jonaswinkler/paperless-ng
+  - https://hub.docker.com/r/linuxserver/paperless-ng
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 3.3.0
