@@ -1,0 +1,21 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users.
+name: sonarr
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - sonarr
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/sonarr
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png
+sources:
+  - https://sonarr.tv
+  - https://hub.docker.com/r/linuxserver/sonarr
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 3.3.0
