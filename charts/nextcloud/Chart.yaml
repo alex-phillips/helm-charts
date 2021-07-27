@@ -8,7 +8,7 @@ kubeVersion: ">=1.16.0-0"
 keywords:
   - nextcloud
   - management
-home: https://github.com/alex-phillips/helm-charts/tree/main/charts/thelounge
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/nextcloud
 icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
 sources:
   - https://nextcloud.com/
