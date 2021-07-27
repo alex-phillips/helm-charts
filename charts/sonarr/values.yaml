@@ -45,6 +45,6 @@ persistence:
   config:
     enabled: false
     mountPath: /config
-  data:
+  media:
     enabled: false
     mountPath: /media
