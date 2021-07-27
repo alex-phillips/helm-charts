@@ -7,7 +7,7 @@
 
 image:
   # -- image repository
-  repository: ghcr.io/linuxserver/sonarr
+  repository: ghcr.io/linuxserver/radarr
   # -- image tag
   pullPolicy: IfNotPresent
   # -- image pull policy
@@ -27,7 +27,7 @@ service:
   main:
     ports:
       http:
-        port: 8989
+        port: 7878
 
 ingress:
   # -- Enable and configure ingress settings for the chart under this key.
