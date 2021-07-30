@@ -1,0 +1,21 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: Smokeping keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.
+name: smokeping
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - smokeping
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/smokeping
+icon: https://camo.githubusercontent.com/e0694ef783e3fd1d74e6776b28822ced01c7cc17/687474703a2f2f6f73732e6f6574696b65722e63682f736d6f6b6570696e672f696e632f736d6f6b6570696e672d6c6f676f2e706e67
+sources:
+  - https://oss.oetiker.ch/smokeping/
+  - https://hub.docker.com/r/linuxserver/smokeping
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 3.3.0
