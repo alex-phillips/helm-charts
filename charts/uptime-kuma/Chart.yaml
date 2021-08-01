@@ -1,0 +1,23 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: It is a self-hosted monitoring tool like "Uptime Robot".
+name: nextcloud
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - uptime-kuma
+  - uptime
+  - uptime robot
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/uptime-kuma
+icon: https://raw.githubusercontent.com/louislam/uptime-kuma/master/public/icon.svg
+sources:
+  - https://github.com/louislam/uptime-kuma
+  - https://hub.docker.com/r/louislam/uptime-kuma
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 3.3.0
