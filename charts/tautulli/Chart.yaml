@@ -1,0 +1,22 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: Tautulli is a python based web application for monitoring, analytics and notifications for Plex Media Server.
+name: radarr
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - tautulli
+  - plex
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/tautulli
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tautulli-icon.png
+sources:
+  - http://tautulli.com/
+  - https://hub.docker.com/r/linuxserver/tautulli
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 3.3.0
