@@ -2,12 +2,12 @@
 apiVersion: v2
 appVersion: v21.05.1
 description: Invoicing, Quotes, Expenses, Time-Tracking built with Laravel & Flutter
-name: invoinceninja
+name: invoiceninja
 version: 1.0.0
 kubeVersion: ">=1.16.0-0"
 keywords:
-  - invoinceninja
-home: https://github.com/alex-phillips/helm-charts/tree/main/charts/invoinceninja
+  - invoiceninja
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/invoiceninja
 icon: https://raw.githubusercontent.com/hillelcoren/invoice-ninja/master/public/images/round_logo.png
 sources:
   - https://github.com/invoiceninja/invoiceninja
