@@ -1,0 +1,22 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: Xbackbone is a simple, self-hosted, lightweight PHP file manager that support the instant sharing tool ShareX and *NIX systems.
+name: xbackbone
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - xbackbone
+  - sharex
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/xbackbone
+icon: https://raw.githubusercontent.com/SergiX44/XBackBone/master/docs/img/xbackbone.png
+sources:
+  - https://github.com/SergiX44/XBackBone
+  - https://hub.docker.com/r/linuxserver/xbackbone
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 3.3.0
