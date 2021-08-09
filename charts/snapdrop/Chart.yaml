@@ -1,0 +1,22 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: Snapdrop A local file sharing in your browser. Inspired by Apple's Airdrop.
+name: snapdrop
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - snapdrop
+  - airdrop
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/snapdrop
+icon: https://raw.githubusercontent.com/RobinLinus/snapdrop/master/client/images/logo_transparent_512x512.png
+sources:
+  - https://github.com/RobinLinus/snapdrop
+  - https://hub.docker.com/r/linuxserver/snapdrop
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 3.3.0
