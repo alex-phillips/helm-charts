@@ -1,0 +1,21 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: Overseerr is a free and open source software application for managing requests for your media library.
+name: overseerr
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - overseerr
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/overseerr
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/overseerr.png
+sources:
+  - https://overseerr.dev/
+  - https://hub.docker.com/r/linuxserver/overseerr
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.0.0
