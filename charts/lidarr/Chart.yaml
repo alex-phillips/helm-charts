@@ -1,0 +1,21 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: Lidarr is a music collection manager for Usenet and BitTorrent users.
+name: lidarr
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - lidarr
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/lidarr
+icon: https://raw.githubusercontent.com/lidarr/Lidarr/develop/Logo/400.png
+sources:
+  - https://github.com/lidarr/Lidarr
+  - https://hub.docker.com/r/linuxserver/lidarr
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.0.0
