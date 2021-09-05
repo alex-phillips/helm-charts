@@ -1,0 +1,21 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized.
+name: syncthing
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - syncthing
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/syncthing
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syncthing-banner.png
+sources:
+  - https://syncthing.net/
+  - https://hub.docker.com/r/linuxserver/syncthing
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.0.0
