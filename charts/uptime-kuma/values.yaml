@@ -11,7 +11,7 @@ image:
   # -- image tag
   pullPolicy: IfNotPresent
   # -- image pull policy
-  tag: latest
+  tag: 1.5.2
 
 # -- environment variables. See more environment variables in the [thelounge documentation](https://hub.docker.com/r/linuxserver/thelounge)
 # @default -- See below
