@@ -55,30 +55,21 @@
       "updateTypes": ["major"],
       "bumpVersion": "major",
       "labels": ["dependency/major"],
-      "excludePackageNames": ["common"],
-      "schedule": [
-        "every 3 months on the first day of the month"
-      ]
+      "excludePackageNames": ["common"]
     },
     {
       "updateTypes": ["minor"],
       "bumpVersion": "minor",
       "labels": ["dependency/minor"],
       "excludePackageNames": ["common"],
-      "groupName": ["external minor dep"],
-      "schedule": [
-        "every 2 months on the first day of the month"
-      ]
+      "groupName": ["external minor dep"]
     },
     {
       "updateTypes": ["patch"],
       "bumpVersion": "patch",
       "labels": ["dependency/patch"],
       "excludePackageNames": ["common"],
-      "groupName": ["external patch dep"],
-      "schedule": [
-        "every 1 months on the first day of the month"
-      ]
+      "groupName": ["external patch dep"]
     }
   ]
 }
