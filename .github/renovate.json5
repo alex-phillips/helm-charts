@@ -5,6 +5,9 @@
   "assigneesFromCodeOwners": true,
   "reviewersFromCodeOwners": true,
   "rebaseWhen": "conflicted",
+  "helm-values": {
+    "enabled": false
+  },
   "helmv3": {
     "fileMatch": ["charts/.+/Chart\\.yaml$"]
   },
