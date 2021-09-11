@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: v21.05.1
 description: Snapdrop A local file sharing in your browser. Inspired by Apple's Airdrop.
 name: snapdrop
-version: 1.1.0
+version: 1.0.0
 kubeVersion: ">=1.16.0-0"
 keywords:
   - snapdrop
