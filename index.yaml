@@ -1,0 +1,454 @@
+apiVersion: v1
+entries:
+  grav:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:19.308848083Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Grav is a Fast, Simple, and Flexible, file-based Web-platform.
+    digest: e62611ed3dd35aecaa631430d0a31aa146eb9ad40502391cc9274cb949808299
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/grav
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png
+    keywords:
+    - grav
+    - blog
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: grav
+    sources:
+    - https://github.com/getgrav/grav/
+    - https://hub.docker.com/r/linuxserver/grav
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/grav-1.0.0/grav-1.0.0.tgz
+    version: 1.0.0
+  invoiceninja:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:19.455035968Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Invoicing, Quotes, Expenses, Time-Tracking built with Laravel & Flutter
+    digest: dae914d0a6912df9c6be8a3e417e97b4c3c031afeeba267d7f8475f422e0614f
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/invoiceninja
+    icon: https://raw.githubusercontent.com/hillelcoren/invoice-ninja/master/public/images/round_logo.png
+    keywords:
+    - invoiceninja
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: invoiceninja
+    sources:
+    - https://github.com/invoiceninja/invoiceninja
+    - https://github.com/linuxserver-labs/docker-invoiceninja
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/invoiceninja-1.0.0/invoiceninja-1.0.0.tgz
+    version: 1.0.0
+  lidarr:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:19.609194545Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Lidarr is a music collection manager for Usenet and BitTorrent users.
+    digest: 3ab24a4c7687fdc0dfb1739e626b8d53cd7077e201dfd7bf792bf2109bb4a602
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/lidarr
+    icon: https://raw.githubusercontent.com/lidarr/Lidarr/develop/Logo/400.png
+    keywords:
+    - lidarr
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: lidarr
+    sources:
+    - https://github.com/lidarr/Lidarr
+    - https://hub.docker.com/r/linuxserver/lidarr
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/lidarr-1.0.0/lidarr-1.0.0.tgz
+    version: 1.0.0
+  nextcloud:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:19.75488215Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Nextcloud gives you access to all your files wherever you are.
+    digest: 69caec121b9c9f6b31717b263b18db9020e4083fdbd1bac3424ef84f022ea753
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/nextcloud
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
+    keywords:
+    - nextcloud
+    - management
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: nextcloud
+    sources:
+    - https://nextcloud.com/
+    - https://hub.docker.com/r/linuxserver/nextcloud
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/nextcloud-1.0.0/nextcloud-1.0.0.tgz
+    version: 1.0.0
+  onlyoffice-documentserver:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:19.916633928Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: 'ONLYOFFICE Document Server is a free collaborative online office
+      suite comprising viewers and editors for texts, spreadsheets and presentations,
+      fully compatible with Office Open XML formats: .docx, .xlsx, .pptx and enabling
+      collaborative editing in real time.'
+    digest: 1ce24991ac4b1c59d96b2e3f73f27a4d6038fab982b729a1287306c3b8d98b1a
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/onlyoffice-documentserver
+    keywords:
+    - onlyoffice
+    - documentserver
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: onlyoffice-documentserver
+    sources:
+    - https://github.com/ONLYOFFICE/DocumentServer
+    - https://hub.docker.com/r/onlyoffice/documentserver
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/onlyoffice-documentserver-1.0.0/onlyoffice-documentserver-1.0.0.tgz
+    version: 1.0.0
+  overseerr:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:20.070765788Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Overseerr is a free and open source software application for managing
+      requests for your media library.
+    digest: 121a409ab68835706186639b96632e15de035f0af6de9426a2a671f53dd6c2f4
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/overseerr
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/overseerr.png
+    keywords:
+    - overseerr
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: overseerr
+    sources:
+    - https://overseerr.dev/
+    - https://hub.docker.com/r/linuxserver/overseerr
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/overseerr-1.0.0/overseerr-1.0.0.tgz
+    version: 1.0.0
+  paperless-ng:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:20.223442039Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Paperless-ng is an application by Daniel Quinn and contributors that
+      indexes your scanned documents and allows you to easily search for documents
+      and store metadata alongside your documents.
+    digest: 4bb8574997ca52af41813faa858e9059a02f248feae21ca706f14610d4ccbafc
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/paperless-ng
+    icon: https://raw.githubusercontent.com/the-paperless-project/paperless/master/src/paperless/static/paperless/img/logo-dark.png
+    keywords:
+    - paperless
+    - paperless-ng
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: paperless-ng
+    sources:
+    - https://github.com/jonaswinkler/paperless-ng
+    - https://hub.docker.com/r/linuxserver/paperless-ng
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/paperless-ng-1.0.0/paperless-ng-1.0.0.tgz
+    version: 1.0.0
+  radarr:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:20.367273434Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: A fork of radarr to work with movies à la Couchpotato.
+    digest: 4d4d8e67c7d7b277fc6c3b6dd2fcb57d7b60b42de154238d8e8d047d70d5793b
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/radarr
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png
+    keywords:
+    - radarr
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: radarr
+    sources:
+    - https://radarr.tv
+    - https://hub.docker.com/r/linuxserver/radarr
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/radarr-1.0.0/radarr-1.0.0.tgz
+    version: 1.0.0
+  smokeping:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:20.518180774Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Smokeping keeps track of your network latency. For a full example
+      of what this application is capable of visit UCDavis.
+    digest: e7570d6e1848ab446cf430ea90c355984f65c49d074c99fbf4f387a42b5d8398
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/smokeping
+    icon: https://camo.githubusercontent.com/e0694ef783e3fd1d74e6776b28822ced01c7cc17/687474703a2f2f6f73732e6f6574696b65722e63682f736d6f6b6570696e672f696e632f736d6f6b6570696e672d6c6f676f2e706e67
+    keywords:
+    - smokeping
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: smokeping
+    sources:
+    - https://oss.oetiker.ch/smokeping/
+    - https://hub.docker.com/r/linuxserver/smokeping
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/smokeping-1.0.0/smokeping-1.0.0.tgz
+    version: 1.0.0
+  snapdrop:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:20.664578885Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Snapdrop A local file sharing in your browser. Inspired by Apple's
+      Airdrop.
+    digest: bed7ddbeda5b96f1d557c01cb8385e78b6d5b53ee56d9fb2285aa55705507102
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/snapdrop
+    icon: https://raw.githubusercontent.com/RobinLinus/snapdrop/master/client/images/logo_transparent_512x512.png
+    keywords:
+    - snapdrop
+    - airdrop
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: snapdrop
+    sources:
+    - https://github.com/RobinLinus/snapdrop
+    - https://hub.docker.com/r/linuxserver/snapdrop
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/snapdrop-1.0.0/snapdrop-1.0.0.tgz
+    version: 1.0.0
+  snipe-it:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:20.802709945Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Snipe-it makes asset management easy. It was built by people solving
+      real-world IT and asset management problems, and a solid UX has always been
+      a top priority. Straightforward design and bulk actions mean getting things
+      done faster.
+    digest: 6fded382d95e92c4f063a6c0f6d9f1127b24c22862bda2fed5b90b87c4af71e4
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/thelounge
+    icon: https://camo.githubusercontent.com/8e8f29714dd943f14c7e2f4a427bf4eb72664d3d61ed8f946bfe0cd697d59032/68747470733a2f2f73332d75732d776573742d322e616d617a6f6e6177732e636f6d2f6c696e75787365727665722d646f63732f696d616765732f736e6970652d69742d6c6f676f353030783530302e706e67
+    keywords:
+    - snipe-it
+    - management
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: snipe-it
+    sources:
+    - https://github.com/snipe/snipe-it
+    - https://hub.docker.com/r/linuxserver/snipe-it
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/snipe-it-1.0.0/snipe-it-1.0.0.tgz
+    version: 1.0.0
+  sonarr:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:20.939683898Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users.
+    digest: cab5d5c88d6724d5368bd48de0c736e294bf6da517f41aa5e91536f82180a665
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/sonarr
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png
+    keywords:
+    - sonarr
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: sonarr
+    sources:
+    - https://sonarr.tv
+    - https://hub.docker.com/r/linuxserver/sonarr
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/sonarr-1.0.0/sonarr-1.0.0.tgz
+    version: 1.0.0
+  syncthing:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:21.097930784Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Syncthing replaces proprietary sync and cloud services with something
+      open, trustworthy and decentralized.
+    digest: c53c046e065a475fcf5a4400d185a33e7d96df7dbdf88d1c386ff34e394bd211
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/syncthing
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syncthing-banner.png
+    keywords:
+    - syncthing
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: syncthing
+    sources:
+    - https://syncthing.net/
+    - https://hub.docker.com/r/linuxserver/syncthing
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/syncthing-1.0.0/syncthing-1.0.0.tgz
+    version: 1.0.0
+  tautulli:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:21.236151844Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Tautulli is a python based web application for monitoring, analytics
+      and notifications for Plex Media Server.
+    digest: 3ba0f923bdce8c731e17f76dfa427e1f99c4d6eeb451e5fa127bd074ad6cd66b
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/tautulli
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tautulli-icon.png
+    keywords:
+    - tautulli
+    - plex
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: tautulli
+    sources:
+    - http://tautulli.com/
+    - https://hub.docker.com/r/linuxserver/tautulli
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/tautulli-1.0.0/tautulli-1.0.0.tgz
+    version: 1.0.0
+  thelounge:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:21.381208948Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Thelounge (a fork of shoutIRC) is a web IRC client that you host
+      on your own server.
+    digest: 8981f4d719048347963bd57f7f46a86c1a35942cf39fb150005907ff3ae9f8ee
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/thelounge
+    icon: https://raw.githubusercontent.com/thelounge/thelounge/master/client/img/logo-vertical-transparent-bg.svg?sanitize=true
+    keywords:
+    - thelounge
+    - irc
+    - shoutIRC)
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: thelounge
+    sources:
+    - https://thelounge.github.io/
+    - https://hub.docker.com/r/linuxserver/thelounge
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/thelounge-1.0.0/thelounge-1.0.0.tgz
+    version: 1.0.0
+  uptime-kuma:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:21.529724772Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: It is a self-hosted monitoring tool like "Uptime Robot".
+    digest: db443c819e5e14dd7961026d134bb0d186acefd6963330cb1a0b062be836e372
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/uptime-kuma
+    icon: https://raw.githubusercontent.com/louislam/uptime-kuma/master/public/icon.svg
+    keywords:
+    - uptime-kuma
+    - uptime
+    - uptime robot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: uptime-kuma
+    sources:
+    - https://github.com/louislam/uptime-kuma
+    - https://hub.docker.com/r/louislam/uptime-kuma
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/uptime-kuma-1.0.0/uptime-kuma-1.0.0.tgz
+    version: 1.0.0
+  xbackbone:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-09-11T22:27:21.673078665Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Xbackbone is a simple, self-hosted, lightweight PHP file manager
+      that support the instant sharing tool ShareX and *NIX systems.
+    digest: b77af0403d3bbebcbc2e379b77d1eb709f923ce3e592f67df7ef79a5e76a7a5c
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/xbackbone
+    icon: https://raw.githubusercontent.com/SergiX44/XBackBone/master/docs/img/xbackbone.png
+    keywords:
+    - xbackbone
+    - sharex
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: xbackbone
+    sources:
+    - https://github.com/SergiX44/XBackBone
+    - https://hub.docker.com/r/linuxserver/xbackbone
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/xbackbone-1.0.0/xbackbone-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-09-11T22:27:21.673086465Z"
