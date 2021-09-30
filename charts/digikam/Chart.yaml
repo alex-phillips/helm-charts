@@ -1,0 +1,21 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: Professional Photo Management with the Power of Open Source
+name: digikam
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - digikam
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/digikam
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png
+sources:
+  - https://www.digikam.org
+  - https://hub.docker.com/r/linuxserver/digikam
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.0.0
