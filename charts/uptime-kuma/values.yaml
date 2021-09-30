@@ -11,11 +11,7 @@ image:
   # -- image tag
   pullPolicy: IfNotPresent
   # -- image pull policy
-  tag: 1.6.1
-
-# -- environment variables. See more environment variables in the [thelounge documentation](https://hub.docker.com/r/linuxserver/thelounge)
-# @default -- See below
-env: {}
+  tag: 1.7.1
 
 # -- Configures service settings for the chart.
 # @default -- See values.yaml
@@ -30,10 +26,6 @@ ingress:
   # @default -- See values.yaml
   main:
     enabled: false
-    # If you use https as the backend, you need to enable tell your ingress
-    # annotations:
-    #  nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
-    #  ingress.kubernetes.io/protocol: https
 
 # -- Configure persistence settings for the chart under this key.
 # @default -- See values.yaml
