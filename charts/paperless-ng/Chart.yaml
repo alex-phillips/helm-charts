@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: v21.05.1
 description: Paperless-ng is an application by Daniel Quinn and contributors that indexes your scanned documents and allows you to easily search for documents and store metadata alongside your documents.
 name: paperless-ng
-version: 1.0.0
+version: 1.0.1
 kubeVersion: ">=1.16.0-0"
 keywords:
   - paperless
@@ -19,4 +19,4 @@ maintainers:
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com
-    version: 4.0.0
+    version: 4.0.1
