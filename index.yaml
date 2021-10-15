@@ -1,5 +1,32 @@
 apiVersion: v1
 entries:
+  apprise-api:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-10-15T14:00:29.783390315Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: Apprise-api Takes advantage of Apprise through your network with
+      a user-friendly API.
+    digest: 90ff4878430a9cffe5837d81f20ec39aedcf45243e8badc5bfa1643e4ac4d794
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/apprise-api
+    icon: https://raw.githubusercontent.com/caronc/apprise-api/master/apprise_api/static/logo.png
+    keywords:
+    - apprise-api
+    - apprise
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: apprise-api
+    sources:
+    - https://github.com/caronc/apprise-api
+    - https://hub.docker.com/r/linuxserver/apprise-api
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/apprise-api-1.0.0/apprise-api-1.0.0.tgz
+    version: 1.0.0
   grav:
   - apiVersion: v2
     appVersion: v21.05.1
@@ -451,4 +478,4 @@ entries:
     urls:
     - https://github.com/alex-phillips/helm-charts/releases/download/xbackbone-1.0.0/xbackbone-1.0.0.tgz
     version: 1.0.0
-generated: "2021-09-11T22:27:21.673086465Z"
+generated: "2021-10-15T14:00:29.783482415Z"
