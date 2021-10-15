@@ -1,0 +1,19 @@
+---
+apiVersion: v2
+description: GoAlert provides on-call scheduling, automated escalations and notifications (like SMS or voice calls) to automatically engage the right person, the right way, and at the right time.
+name: goalert
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - goalert
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/goalert
+icon: ""
+sources:
+  - https://github.com/target/goalert
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.0.0
