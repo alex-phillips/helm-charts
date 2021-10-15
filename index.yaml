@@ -27,6 +27,30 @@ entries:
     urls:
     - https://github.com/alex-phillips/helm-charts/releases/download/apprise-api-1.0.0/apprise-api-1.0.0.tgz
     version: 1.0.0
+  goalert:
+  - apiVersion: v2
+    created: "2021-10-15T15:54:10.119184436Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.0
+    description: GoAlert provides on-call scheduling, automated escalations and notifications
+      (like SMS or voice calls) to automatically engage the right person, the right
+      way, and at the right time.
+    digest: a05bffb1549e50687ab986abe583a1e51cd4ca8b627f3ac0ce1bdcce75d9d874
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/goalert
+    keywords:
+    - goalert
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: goalert
+    sources:
+    - https://github.com/target/goalert
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/goalert-1.0.0/goalert-1.0.0.tgz
+    version: 1.0.0
   grav:
   - apiVersion: v2
     appVersion: v21.05.1
@@ -478,4 +502,4 @@ entries:
     urls:
     - https://github.com/alex-phillips/helm-charts/releases/download/xbackbone-1.0.0/xbackbone-1.0.0.tgz
     version: 1.0.0
-generated: "2021-10-15T14:00:29.783482415Z"
+generated: "2021-10-15T15:54:10.119205436Z"
