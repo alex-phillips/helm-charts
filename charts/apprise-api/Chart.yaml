@@ -1,0 +1,22 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: Apprise-api Takes advantage of Apprise through your network with a user-friendly API.
+name: apprise-api
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - apprise-api
+  - apprise
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/apprise-api
+icon: https://raw.githubusercontent.com/caronc/apprise-api/master/apprise_api/static/logo.png
+sources:
+  - https://github.com/caronc/apprise-api
+  - https://hub.docker.com/r/linuxserver/apprise-api
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.0.0
