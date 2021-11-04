@@ -1,0 +1,21 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: Drone is a continuous delivery system built on container technology. Drone uses a simple YAML build file, to define and execute build pipelines inside Docker containers.
+name: drone
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - drone
+  - ci
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/drone
+icon: https://www.drone.io/images/logo2-5d91833e3b.svg
+sources:
+  - https://github.com/drone/drone
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.0.1
