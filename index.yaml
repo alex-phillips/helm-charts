@@ -78,6 +78,33 @@ entries:
     urls:
     - https://github.com/alex-phillips/helm-charts/releases/download/digikam-1.0.1/digikam-1.0.1.tgz
     version: 1.0.1
+  drone:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-11-04T14:51:45.855498503Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.1
+    description: Drone is a continuous delivery system built on container technology.
+      Drone uses a simple YAML build file, to define and execute build pipelines inside
+      Docker containers.
+    digest: 4868ebf4a3b43d9b244a9eb756af382342964692ee73351cceabbfc404189290
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/drone
+    icon: https://www.drone.io/images/logo2-5d91833e3b.svg
+    keywords:
+    - drone
+    - ci
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: drone
+    sources:
+    - https://github.com/drone/drone
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/drone-1.0.0/drone-1.0.0.tgz
+    version: 1.0.0
   goalert:
   - apiVersion: v2
     created: "2021-10-20T00:21:38.618526002Z"
@@ -1010,4 +1037,4 @@ entries:
     urls:
     - https://github.com/alex-phillips/helm-charts/releases/download/xbackbone-1.0.0/xbackbone-1.0.0.tgz
     version: 1.0.0
-generated: "2021-10-20T00:21:41.393580218Z"
+generated: "2021-11-04T14:51:45.855571704Z"
