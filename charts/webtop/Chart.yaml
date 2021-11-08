@@ -1,0 +1,20 @@
+---
+apiVersion: v2
+appVersion: v21.05.1
+description: Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.
+name: webtop
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - webtop
+home: https://github.com/alex-phillips/helm-charts/tree/main/charts/webtop
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png
+sources:
+  - https://github.com/linuxserver/docker-webtop
+maintainers:
+  - name: alex-phillips
+    email: ahp118@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.0.1
