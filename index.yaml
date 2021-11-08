@@ -984,6 +984,32 @@ entries:
     urls:
     - https://github.com/alex-phillips/helm-charts/releases/download/uptime-kuma-1.0.0/uptime-kuma-1.0.0.tgz
     version: 1.0.0
+  webtop:
+  - apiVersion: v2
+    appVersion: v21.05.1
+    created: "2021-11-08T20:42:56.029085212Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.1
+    description: Alpine, Ubuntu, Fedora, and Arch based containers containing full
+      desktop environments in officially supported flavors accessible via any modern
+      web browser.
+    digest: 2bc8a70e4432cdcc52104f05f0f9ca1f293a669c56cacb8b35bcaecac0d0d377
+    home: https://github.com/alex-phillips/helm-charts/tree/main/charts/webtop
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png
+    keywords:
+    - webtop
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ahp118@gmail.com
+      name: alex-phillips
+    name: webtop
+    sources:
+    - https://github.com/linuxserver/docker-webtop
+    urls:
+    - https://github.com/alex-phillips/helm-charts/releases/download/webtop-1.0.0/webtop-1.0.0.tgz
+    version: 1.0.0
   xbackbone:
   - apiVersion: v2
     appVersion: v21.05.1
@@ -1037,4 +1063,4 @@ entries:
     urls:
     - https://github.com/alex-phillips/helm-charts/releases/download/xbackbone-1.0.0/xbackbone-1.0.0.tgz
     version: 1.0.0
-generated: "2021-11-04T14:51:45.855571704Z"
+generated: "2021-11-08T20:42:56.029146413Z"
