@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: v21.05.1
 description: It is a self-hosted monitoring tool like "Uptime Robot".
 name: uptime-kuma
-version: 1.0.1
+version: 1.1.0
 kubeVersion: ">=1.16.0-0"
 keywords:
   - uptime-kuma
@@ -20,4 +20,4 @@ maintainers:
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com
-    version: 4.0.1
+    version: 4.3.0
