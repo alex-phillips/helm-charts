@@ -2,7 +2,7 @@
 apiVersion: v2
 description: GoAlert provides on-call scheduling, automated escalations and notifications (like SMS or voice calls) to automatically engage the right person, the right way, and at the right time.
 name: goalert
-version: 1.0.1
+version: 1.1.0
 kubeVersion: ">=1.16.0-0"
 keywords:
   - goalert
@@ -16,4 +16,4 @@ maintainers:
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com
-    version: 4.0.1
+    version: 4.3.0

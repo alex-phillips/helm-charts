@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: v21.05.1
 description: "ONLYOFFICE Document Server is a free collaborative online office suite comprising viewers and editors for texts, spreadsheets and presentations, fully compatible with Office Open XML formats: .docx, .xlsx, .pptx and enabling collaborative editing in real time."
 name: onlyoffice-documentserver
-version: 1.0.1
+version: 1.1.0
 kubeVersion: ">=1.16.0-0"
 keywords:
   - onlyoffice
@@ -19,4 +19,4 @@ maintainers:
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com
-    version: 4.0.1
+    version: 4.3.0

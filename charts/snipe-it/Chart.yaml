@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: v21.05.1
 description: Snipe-it makes asset management easy. It was built by people solving real-world IT and asset management problems, and a solid UX has always been a top priority. Straightforward design and bulk actions mean getting things done faster.
 name: snipe-it
-version: 1.0.1
+version: 1.1.0
 kubeVersion: ">=1.16.0-0"
 keywords:
   - snipe-it
@@ -19,4 +19,4 @@ maintainers:
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com
-    version: 4.0.1
+    version: 4.3.0
